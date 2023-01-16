@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>HipotecaApp</title>
+    <title>Mortgage-App</title>
 </head>
 
 <body>
@@ -16,31 +16,29 @@
             <H1>Cuota HIPOTECA
             </h1>
         </div>
-        <form id="form">
-            <div class="container">
-                <div class="input-date">
-                    <h1 class="label">PRINCIPAL</h1>
-                    <input type="number" id="amount" value="0" />
-                    <label for="principal-loan-amount">Principal loan amount</label>
-                </div>
-                <div class="input-date">
-                    <h1 class="label">INTERES</h1>
-                    <input type="number" step='0.01' value='0.00' id="interest-rate" ; />
-                    <label for="interest-rate">Interest rate</label>
-                </div>
-                <div class="input-date">
-                    <h1 class="label">YEARS</h1>
-                    <input type="number" id="time" value="0" />
-                    <label for="length-of-loan">Length of loan</label>
-                </div>
+        <div class="container">
+            <div class="input-date">
+                <h1 class="label">PRINCIPAL</h1>
+                <input type="number" id="amount" value="0" />
+                <label for="principal-loan-amount">Principal loan amount</label>
             </div>
-            <div class="btns">
-                <button id="btn">Calculate</button>
+            <div class="input-date">
+                <h1 class="label">INTERES</h1>
+                <input type="number" step='0.01' value='0.00' id="interest-rate" ; />
+                <label for="interest-rate">Interest rate</label>
             </div>
-        </form>
+            <div class="input-date">
+                <h1 class="label">YEARS</h1>
+                <input type="number" id="time" value="0" />
+                <label for="length-of-loan">Length of loan</label>
+            </div>
+        </div>
+        <div class="btns">
+            <button id="btn">Calculate</button>
+        </div>
+
         <div class="info">
             <p id="cuota">
-                Submit your details to see your monthly payment here.
             </p>
         </div>
         <p class="signature">
@@ -50,15 +48,15 @@
           >
           | Coded by
           <a
-            href="https://walkexperience.com/"
+            href="https://walkexperience.org/"
             target="_blank"
-            title="Portfolio Website"
+            title="Walk Experience"
           >
             Walk Experience</a
           >
           |
           <a
-            href="https://github.com/"
+            href="https://github.com/maestroGit/mortgage-App.git"
             target="_blank"
             title="Github Code"
           >
